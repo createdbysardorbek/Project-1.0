@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #171711;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.content {
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.timer {
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.timer .workTime,
+.cycleTime div {
+    display: flex;
+}
+
+.breakTime {
+    display: flex;
+}
+
+.buttons {
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid green;
+    font-size: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: green;
+}
